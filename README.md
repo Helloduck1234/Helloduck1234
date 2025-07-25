@@ -1,24 +1,8 @@
 
 
 <div align="center">
-  <!-- Topographical Animated SVG -->
-  <svg width="100%" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="#00bfff"/>
-        <stop offset="100%" stop-color="#1e3c72"/>
-      </linearGradient>
-    </defs>
-    <path>
-      <animate attributeName="d" dur="8s" repeatCount="indefinite"
-        values="M0,80 Q300,120 600,80 T1200,80 V180 H0 V80 Z;
-                M0,80 Q300,40 600,120 T1200,80 V180 H0 V80 Z;
-                M0,80 Q300,120 600,80 T1200,80 V180 H0 V80 Z"/>
-    </path>
-    <path d="M0,80 Q300,120 600,80 T1200,80 V180 H0 V80 Z" fill="url(#grad)" opacity="0.7"/>
-    <path d="M0,120 Q300,160 600,120 T1200,120 V180 H0 V120 Z" fill="url(#grad)" opacity="0.5"/>
-    <path d="M0,150 Q300,180 600,150 T1200,150 V180 H0 V150 Z" fill="url(#grad)" opacity="0.3"/>
-  </svg>
+  <!-- Topographical GIF Banner -->
+  <img src="https://raw.githubusercontent.com/platane/platane/main/assets/banner.gif" alt="Topographical Animation" width="100%"/>
 </div>
 
 ---

@@ -1,32 +1,24 @@
 
-<!---
-Helloduck1234/Helloduck1234 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
--->
 
 <div align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="200"/>
-  
-  <!-- Animated SVG Waves -->
-  <svg width="100%" height="80" viewBox="0 0 1200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 40 Q 300 80 600 40 T 1200 40 V80 H0 V40 Z" fill="#00bfff">
-      <animate attributeName="d" dur="4s" repeatCount="indefinite"
-        values="M0 40 Q 300 80 600 40 T 1200 40 V80 H0 V40 Z;
-                M0 40 Q 300 0 600 40 T 1200 40 V80 H0 V40 Z;
-                M0 40 Q 300 80 600 40 T 1200 40 V80 H0 V40 Z"/>
+  <!-- Topographical Animated SVG -->
+  <svg width="100%" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#00bfff"/>
+        <stop offset="100%" stop-color="#1e3c72"/>
+      </linearGradient>
+    </defs>
+    <path>
+      <animate attributeName="d" dur="8s" repeatCount="indefinite"
+        values="M0,80 Q300,120 600,80 T1200,80 V180 H0 V80 Z;
+                M0,80 Q300,40 600,120 T1200,80 V180 H0 V80 Z;
+                M0,80 Q300,120 600,80 T1200,80 V180 H0 V80 Z"/>
     </path>
+    <path d="M0,80 Q300,120 600,80 T1200,80 V180 H0 V80 Z" fill="url(#grad)" opacity="0.7"/>
+    <path d="M0,120 Q300,160 600,120 T1200,120 V180 H0 V120 Z" fill="url(#grad)" opacity="0.5"/>
+    <path d="M0,150 Q300,180 600,150 T1200,150 V180 H0 V150 Z" fill="url(#grad)" opacity="0.3"/>
   </svg>
-
-  <h1>
-    <span>
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=500&color=00BFFF&center=true&vCenter=true&width=440&lines=Hi%2C+I'm+%40Helloduck1234+%F0%9F%A6%86;Co-founder+%40+Factful+%F0%9F%9A%80;Welcome+to+my+profile!"/>
-    </span>
-  </h1>
-  <p>
-    <a href="https://github.com/Helloduck1234"><img src="https://img.shields.io/github/followers/Helloduck1234?label=Follow&style=social"/></a>
-    <a href="https://factful.io"><img src="https://img.shields.io/badge/Factful-Visit-blue?logo=googlechrome"/></a>
-    <a href="mailto:andrew@factful.io"><img src="https://img.shields.io/badge/Email-andrew%40factful.io-green?logo=gmail"/></a>
-  </p>
 </div>
 
 ---
